@@ -7,13 +7,13 @@ ctk.set_default_color_theme("blue")
 
 # Diccionario de instrucciones con opcodes correspondientes
 diccionario = {
-    "AND": "00000",  # Ejemplo, deberías poner el opcode real de esta instrucción
-    "OR": "00001",   # Ejemplo, deberías poner el opcode real de esta instrucción
-    "ADD": "00010",  # Ejemplo, deberías poner el opcode real de esta instrucción
-    "SUB": "00011",  # Ejemplo, deberías poner el opcode real de esta instrucción
-    "SLT": "00100",  # Ejemplo, deberías poner el opcode real de esta instrucción
-    "SW": "101011",  # Este es un ejemplo de un opcode real de esta instrucción
-    "LW": "100011",  # Este es un ejemplo de un opcode real de esta instrucción
+    "AND": "00000",  
+    "OR": "00001",   
+    "ADD": "00010", 
+    "SUB": "00011",
+    "SLT": "00100",  
+    "SW": "101011", 
+    "LW": "100011", 
     "NOP": "00000000000000000000000000000000" 
 }
 
