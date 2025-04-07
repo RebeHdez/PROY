@@ -7,8 +7,17 @@ ctk.set_default_color_theme("blue")
 
 
 diccionario = {
-    "ADD": "00",
-    
+    "ADD": "000000",  # opcode de ADD (R-type)
+    "SUB": "000000",  # opcode de SUB (R-type)
+    "AND": "000000",  # opcode de AND (R-type)
+    "OR":  "000000",  # opcode de OR (R-type)
+    "SLT": "000000",  # opcode de SLT (R-type)
+    "J":    "000010",  # opcode de salto (J-type)
+    "NOP":  "0000000000000000",  # NOP como todo ceros
+    "BEQ":  "000100",  # opcode de BEQ (I-type)
+    "BNE":  "000101",  # opcode de BNE (I-type)
+    "LW":   "100011",  # opcode de LW (I-type)
+    "SW":   "101011",  # opcode de SW (I-type)
 }
 
 def instruccion_a_binario(numero):
